@@ -26,12 +26,12 @@ Google Fonts
 
 AlfaTech/
 │
-├── home.html
+├── index.html
 ├── tabeladeprecos.html
 │
 ├── CSS/
-│   ├── home.css
-│   └── tabeladeprecos.css
+│ ├── home.css
+│ └── tabeladeprecos.css
 │
 └── img/
 
@@ -42,13 +42,25 @@ git clone https://github.com/Leo-CastroDEV/Pagina-Provedor-De-Hospedagem
 Acesse a pasta do projeto:
 cd alfatech
 Abra o arquivo abaixo no navegador:
-home.html
+index.html
+
+## Publicação no Vercel
+
+Para publicar no Vercel, basta garantir que `index.html` esteja na raiz do projeto e que os caminhos de CSS e imagens estejam corretos.
+
+Configuração recomendada no Vercel:
+
+- Framework Preset: Other
+- Build Command: vazio
+- Output Directory: .
+
+Depois, importe o repositório e faça o deploy.
 
 📄 Páginas do Projeto
 
-Página	Descrição
-home.html	Página principal com apresentação da empresa
-tabeladeprecos.html	Comparação detalhada entre os planos
+Página Descrição
+index.html Página principal com apresentação da empresa
+tabeladeprecos.html Comparação detalhada entre os planos
 
 🎯 Objetivo
 
