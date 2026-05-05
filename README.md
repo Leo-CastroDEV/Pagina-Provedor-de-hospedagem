@@ -1,28 +1,40 @@
-🚀 AlfaTech | Landing Page de Hospedagem
+# 🚀 AlfaTech | Landing Page de Hospedagem
 
 Projeto de uma landing page moderna para uma empresa fictícia de hospedagem de sites, focada em apresentação de serviços e conversão de clientes.
 
-📌 Sobre o Projeto
+---
 
-O AlfaTech foi desenvolvido com o objetivo de praticar conceitos de estruturação web e estilização com HTML e CSS, simulando um site real de uma empresa de tecnologia.
+## 📌 Sobre o Projeto
+
+O **AlfaTech** foi desenvolvido com o objetivo de praticar conceitos de estruturação web e estilização com HTML, CSS e JavaScript, simulando um site real de uma empresa de tecnologia.
 
 A aplicação apresenta uma interface limpa, organizada e com foco em experiência do usuário, destacando planos e benefícios de forma clara.
 
-✨ Funcionalidades
-🎯 Banner principal com chamada estratégica (CTA)
-💡 Seção de diferenciais do serviço
-💰 Tabela de planos com preços
-📊 Página dedicada para comparação detalhada
-📱 Layout organizado e de fácil navegação
-📍 Rodapé com informações de contato
+---
 
-🛠️ Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-HTML5
-CSS3
-Google Fonts
+- 🎯 Banner principal com chamada estratégica (CTA)
+- 💡 Seção de diferenciais do serviço
+- 💰 Tabela de planos com preços
+- 📊 Página dedicada para comparação detalhada
+- 📱 Layout totalmente responsivo (mobile, tablet e desktop)
+- ⚡ Interatividade com JavaScript
+- 📩 Formulário de contato funcional
+- 📍 Rodapé com informações de contato
 
-📂 Estrutura do Projeto
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Google Fonts  
+
+---
+
+## 📂 Estrutura do Projeto
 
 AlfaTech/
 │
@@ -33,50 +45,56 @@ AlfaTech/
 │ ├── home.css
 │ └── tabeladeprecos.css
 │
+├── JS/
+│ └── script.js
+│
 └── img/
 
-▶️ Como Executar
 
-Clone ou baixe este repositório:
+---
+
+## ▶️ Como Executar
+
+Clone o repositório:
+
+```bash
 git clone https://github.com/Leo-CastroDEV/Pagina-Provedor-De-Hospedagem
-Acesse a pasta do projeto:
+
+Acesse a pasta:
+
 cd alfatech
-Abra o arquivo abaixo no navegador:
+
+Abra no navegador:
+
 index.html
 
-## Publicação no Vercel
+🚀 Deploy no Vercel
 
-Para publicar no Vercel, basta garantir que `index.html` esteja na raiz do projeto e que os caminhos de CSS e imagens estejam corretos.
+Configuração utilizada:
 
-Configuração recomendada no Vercel:
-
-- Framework Preset: Other
-- Build Command: vazio
-- Output Directory: .
-
-Depois, importe o repositório e faça o deploy.
+Framework Preset: Other
+Build Command: (vazio)
+Output Directory: .
 
 📄 Páginas do Projeto
 
-Página Descrição
-index.html Página principal com apresentação da empresa
-tabeladeprecos.html Comparação detalhada entre os planos
+Página	Descrição
+index.html	Página principal
+tabeladeprecos.html	Comparação de planos
 
 🎯 Objetivo
 
-Este projeto foi desenvolvido para:
-
 Praticar HTML semântico
-Trabalhar com estilização em CSS
-Criar layouts organizados
-Simular um projeto real para portfólio
+Desenvolver layouts responsivos
+Aplicar JavaScript na prática
+Criar um projeto real para portfólio
 
-📌 Melhorias Futuras
+📌 Melhorias Implementadas
 
-Tornar o layout totalmente responsivo 📱
-Adicionar interatividade com JavaScript ⚡
-Implementar formulário funcional de contato 📩
-Deploy online (Vercel ou Netlify) 🌐
+✅ Responsividade completa 📱
+✅ Interatividade com JavaScript ⚡
+✅ Formulário funcional 📩
+✅ Deploy online 🌐
 
 👨‍💻 Autor
 
