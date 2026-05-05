@@ -157,6 +157,44 @@
         </a>
       </div>
     </div>
+    <div id="contato" class="secao-contato">
+      <div class="container-contato limitar-secao">
+        <div class="contato-texto">
+          <p class="contato-label">CONTATO</p>
+          <h2>Fale com a nossa equipe</h2>
+          <p>
+            Envie sua dúvida, pedido de orçamento ou sugestão. O formulário abre
+            seu aplicativo de e-mail com a mensagem preenchida.
+          </p>
+          <ul>
+            <li>Resposta rápida para dúvidas comerciais</li>
+            <li>Atendimento em horário comercial</li>
+            <li>Orçamentos para projetos de hospedagem</li>
+          </ul>
+        </div>
+        <form id="form-contato" class="form-contato">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" minlength="3" required />
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required />
+
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto" required>
+            <option value="" selected disabled>Selecione um assunto</option>
+            <option value="Orçamento">Orçamento</option>
+            <option value="Suporte">Suporte</option>
+            <option value="Informações">Informações</option>
+          </select>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" minlength="10" required></textarea>
+
+          <button type="submit">Enviar mensagem</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
     <div> <!-- Rodapé -->
       <div class="rodape-logo">
         <img src="img/logo-icone.png" alt="logotipo" />
@@ -165,7 +203,7 @@
           <p>Soluções em hospedagem</p>
         </div>
       </div>
-      <div id="contato" class="container-contatos">
+      <div class="container-contatos">
         <p>Telefone & Whatsapp: (21) 99999-5555</p>
         <p>E-mail: suporte@alfatech.com</p>
         <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
@@ -175,5 +213,6 @@
         <p>Desenvolvido por <span>"Leonardo Castro"</span></p>
       </div>
     </div>
+    <script src="./JS/main.js"></script>
 </body>
 </html>

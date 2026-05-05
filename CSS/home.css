@@ -304,6 +304,142 @@ table tbody td {
   margin-left: 0;
 }
 
+/* Seção Contato */
+.secao-contato {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #f1f3f7 0%, #ffffff 100%);
+}
+
+.container-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.contato-texto {
+  padding-top: 20px;
+}
+
+.contato-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background-color: rgba(47, 134, 214, 0.12);
+  color: #2f86d6;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contato-texto h2 {
+  font-size: 32px;
+  color: #233032;
+  margin-bottom: 16px;
+}
+
+.contato-texto p {
+  color: #5a6670;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  max-width: 520px;
+}
+
+.contato-texto ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.contato-texto li {
+  position: relative;
+  padding-left: 22px;
+  color: #233032;
+  font-weight: 500;
+}
+
+.contato-texto li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2f86d6;
+}
+
+.form-contato {
+  padding: 28px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 18px 45px rgba(35, 48, 62, 0.12);
+  border: 1px solid #e6edf5;
+  display: grid;
+  gap: 12px;
+}
+
+.form-contato label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #233032;
+}
+
+.form-contato input,
+.form-contato select,
+.form-contato textarea {
+  width: 100%;
+  border: 1px solid #d7e0ea;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: #233032;
+  background-color: #fff;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.form-contato input:focus,
+.form-contato select:focus,
+.form-contato textarea:focus {
+  border-color: #2f86d6;
+  box-shadow: 0 0 0 4px rgba(47, 134, 214, 0.14);
+}
+
+.form-contato textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.form-contato button {
+  border: 0;
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #233032;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.form-contato button:hover {
+  background-color: #2f86d6;
+  transform: translateY(-1px);
+}
+
+.form-status {
+  min-height: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f86d6;
+}
+
 /* Rodapé */
 .rodape-logo {
   width: 320px;
@@ -424,6 +560,22 @@ table tbody td {
   .container-primeiro-anuncio,
   .container-segundo-anuncio {
     padding: 30px 0;
+  }
+
+  .secao-contato {
+    padding: 70px 0;
+  }
+
+  .container-contato {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-texto h2 {
+    font-size: 26px;
+  }
+
+  .form-contato {
+    padding: 22px;
   }
 
   .container-contatos,
