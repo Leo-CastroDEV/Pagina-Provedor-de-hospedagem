@@ -36,37 +36,60 @@ A aplicação apresenta uma interface limpa, organizada e com foco em experiênc
 
 ## 📂 Estrutura do Projeto
 
-AlfaTech/
+```alfatech/
 │
-├── index.html
-├── tabeladeprecos.html
+├── public/                # Arquivos públicos (imagens, ícones, preview)
+│   ├── img/
+│   │   ├── logo.png
+│   │   └── banner.png
+│   └── favicon.ico
 │
-├── CSS/
-│ ├── home.css
-│ └── tabeladeprecos.css
-│
-├── JS/
-│ └── script.js
-│
-└── img/
-
+├── src/                   # Código principal do projeto
+│   │
+│   ├── pages/             # Páginas HTML
+│   │   ├── index.html
+│   │   └── tabeladeprecos.html
+│   │
+│   ├── styles/            # Estilos CSS
+│   │   ├── global.css
+│   │   ├── home.css
+│   │   └── tabeladeprecos.css
+│   │
+│   ├── scripts/           # JavaScript
+│   │   └── script.js
+│   │
+└── README.md              # Documentação do projeto
+````
 
 ---
 
-## ▶️ Como Executar
+## ▶️ Como Executar o Projeto
 
-Clone o repositório:
+Siga os passos abaixo para rodar o projeto localmente:
+
+### 🔹 1. Clone o repositório
 
 ```bash
-git clone https://github.com/Leo-CastroDEV/Pagina-Provedor-De-Hospedagem
+git clone https://github.com/Leo-CastroDEV/Pagina-Provedor-De-Hospedagem.git
+```
+### 2. Acesse a pasta do projeto
 
-Acesse a pasta:
+```cd Pagina-Provedor-De-Hospedagem```
+### 3. Abra o projeto no navegador
 
-cd alfatech
+Você pode abrir de duas formas:
 
-Abra no navegador:
+✅ Opção 1 (mais simples)
 
-index.html
+Abra o arquivo ```index.html``` diretamente no navegador.
+
+✅ Opção 2 (recomendado)
+
+Utilize uma extensão como Live Server no VS Code:
+
+Abra o projeto no VS Code
+Clique com o botão direito no index.html
+Selecione "```Open with Live Server```"
 
 🚀 Deploy no Vercel
 
@@ -79,8 +102,8 @@ Output Directory: .
 📄 Páginas do Projeto
 
 Página	Descrição
-index.html	Página principal
-tabeladeprecos.html	Comparação de planos
+```index.html```	Página principal
+```tabeladeprecos.html```	Comparação de planos
 
 🎯 Objetivo
 
@@ -91,10 +114,10 @@ Criar um projeto real para portfólio
 
 📌 Melhorias Implementadas
 
-✅ Responsividade completa 📱
-✅ Interatividade com JavaScript ⚡
-✅ Formulário funcional 📩
-✅ Deploy online 🌐
+- Responsividade completa 📱
+- Interatividade com JavaScript ⚡
+- Formulário funcional 📩
+- Deploy online 🌐
 
 👨‍💻 Autor
 
